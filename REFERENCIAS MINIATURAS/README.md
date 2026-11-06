@@ -4,9 +4,20 @@
 
 Actuar como especialista en contenido y miniaturas de Roblox. Priorizar el clic y la retención de cada video, con libertad para experimentar con ideas, planos, encuadres y composiciones. Las referencias orientan el lenguaje visual; cada propuesta debe adaptarse a la historia del video.
 
-## Catálogo de las cinco referencias del chat
+Los cinco nombres JPG de la tabla son una propuesta para organizar las imágenes originales del chat; esos archivos todavía no están incorporados. Hay cuatro recreaciones vectoriales SVG disponibles en esta carpeta. Son esquemas de composición y no conservan el acabado 3D, las poses ni todos los detalles de los originales. La referencia del bebé con «500 IQ» sigue pendiente como archivo.
 
-Los nombres siguientes son una propuesta de organización. Los archivos de imagen aún deben incorporarse: las imágenes se pueden ver en el chat, pero no están disponibles como archivos en este entorno. No se han subido a GitHub.
+## Archivos SVG disponibles
+
+| Referencia | Archivo |
+| --- | --- |
+| Mejor amigo vs. crush | [01-mejor-amigo-vs-crush.svg](01-mejor-amigo-vs-crush.svg) |
+| Nerd vs. popular | [02-nerd-vs-popular.svg](02-nerd-vs-popular.svg) |
+| Pobre vs. rico | [03-pobre-vs-rico.svg](03-pobre-vs-rico.svg) |
+| Ayuda vs. millonario | [04-ayuda-vs-millonario.svg](04-ayuda-vs-millonario.svg) |
+
+Las copias mantienen el contenido de los SVG subidos a `REFERENCIAS VISUALES MINIATURAS`, con nombres sin saltos de línea finales.
+
+## Catálogo de las imágenes originales
 
 | Archivo propuesto | Escena | Hipótesis de interés para el clic | Conexión con la retención |
 | --- | --- | --- | --- |

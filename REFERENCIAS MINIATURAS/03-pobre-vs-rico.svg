@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="street" x1="0" x2="1">
+      <stop offset="0" stop-color="#e4ece8"/>
+      <stop offset="1" stop-color="#dfe6f8"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffed9d"/>
+      <stop offset="1" stop-color="#d5a100"/>
+    </linearGradient>
+    <filter id="sombra" x="-15%" y="-15%" width="130%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#street)"/>
+  <rect x="0" y="680" width="1600" height="220" fill="#cfd6db"/>
+  <rect x="0" y="550" width="1600" height="12" fill="#edf4ff"/>
+
+  <g filter="url(#sombra)">
+    <!-- poor guy -->
+    <g transform="translate(80,150)">
+      <circle cx="260" cy="120" r="110" fill="#e8c899"/>
+      <path d="M165 90 Q260 20 355 100 Q270 145 215 145 Q180 140 165 90 Z" fill="#c4834d"/>
+      <circle cx="210" cy="130" r="15" fill="#1a1a1a"/>
+      <circle cx="310" cy="130" r="15" fill="#1a1a1a"/>
+      <path d="M220 220 Q260 260 300 220" stroke="#1a1a1a" stroke-width="10" fill="none" stroke-linecap="round"/>
+      <rect x="140" y="245" width="240" height="260" rx="32" fill="#5f3b1a"/>
+      <path d="M155 265 L360 265 Q365 420 145 420 Z" fill="#6b431d"/>
+      <path d="M160 520 Q260 585 360 520 L360 700 L160 700 Z" fill="#2b5d9f"/>
+      <path d="M150 650 Q260 660 370 650" stroke="#1f1f1f" stroke-width="10" fill="none"/>
+      <g opacity="0.7">
+        <path d="M210 270 L260 345 L310 270" stroke="#c9935d" stroke-width="14" fill="none" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <!-- rich guy -->
+    <g transform="translate(850,100)">
+      <circle cx="250" cy="140" r="115" fill="#f1d99b"/>
+      <path d="M165 110 Q245 30 335 110 Q290 140 270 160 Q205 155 165 110 Z" fill="#dc8d3d"/>
+      <circle cx="205" cy="150" r="17" fill="#1a1a1a"/>
+      <circle cx="295" cy="150" r="17" fill="#1a1a1a"/>
+      <path d="M220 235 Q250 270 280 235" stroke="#1a1a1a" stroke-width="10" fill="none" stroke-linecap="round"/>
+      <path d="M160 270 L345 270 Q360 520 155 520 Z" fill="url(#gold)"/>
+      <path d="M160 520 Q250 620 340 520 L340 700 L160 700 Z" fill="#d5a301"/>
+      <g fill="#48d86a">
+        <rect x="170" y="370" width="84" height="110" rx="8" transform="rotate(-8 212 425)"/>
+        <rect x="260" y="340" width="84" height="110" rx="8" transform="rotate(10 302 395)"/>
+        <rect x="220" y="460" width="84" height="110" rx="8" transform="rotate(0 262 515)"/>
+      </g>
+      <g fill="#f5fffb">
+        <text x="212" y="430" font-size="34" font-family="Arial Black, Arial, sans-serif" text-anchor="middle" fill="#0b5f2d">$</text>
+        <text x="302" y="402" font-size="34" font-family="Arial Black, Arial, sans-serif" text-anchor="middle" fill="#0b5f2d">$</text>
+        <text x="262" y="525" font-size="34" font-family="Arial Black, Arial, sans-serif" text-anchor="middle" fill="#0b5f2d">$</text>
+      </g>
+    </g>
+  </g>
+
+  <g font-family="Arial Black, Arial, sans-serif" text-anchor="middle" font-weight="900">
+    <text x="450" y="120" font-size="96" fill="#ff5d5d">Pobre</text>
+    <text x="1160" y="120" font-size="96" fill="#2ecb7a">Rico</text>
+  </g>
+  <g font-family="Arial Black, Arial, sans-serif" text-anchor="middle" font-weight="900">
+    <text x="450" y="820" font-size="82" fill="#ff5959">$0</text>
+    <text x="1160" y="820" font-size="82" fill="#2ecb7a">$∞</text>
+  </g>
+</svg>
