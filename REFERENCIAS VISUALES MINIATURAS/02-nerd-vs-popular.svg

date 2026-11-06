@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="hall" x1="0" x2="1">
+      <stop offset="0" stop-color="#c6eaf2"/>
+      <stop offset="1" stop-color="#b8d9f6"/>
+    </linearGradient>
+    <linearGradient id="lockerBlue" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#66d8ff"/>
+      <stop offset="1" stop-color="#2fa1d8"/>
+    </linearGradient>
+    <filter id="shadow2" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#hall)"/>
+  <g opacity="0.92">
+    <g fill="url(#lockerBlue)">
+      <rect x="0" y="0" width="40" height="180"/><rect x="0" y="210" width="40" height="180"/><rect x="0" y="420" width="40" height="180"/><rect x="0" y="630" width="40" height="180"/>
+      <rect x="60" y="0" width="40" height="180"/><rect x="60" y="210" width="40" height="180"/><rect x="60" y="420" width="40" height="180"/><rect x="60" y="630" width="40" height="180"/>
+      <rect x="120" y="0" width="40" height="180"/><rect x="120" y="210" width="40" height="180"/><rect x="120" y="420" width="40" height="180"/><rect x="120" y="630" width="40" height="180"/>
+      <rect x="180" y="0" width="40" height="180"/><rect x="180" y="210" width="40" height="180"/><rect x="180" y="420" width="40" height="180"/><rect x="180" y="630" width="40" height="180"/>
+      <rect x="240" y="0" width="40" height="180"/><rect x="240" y="210" width="40" height="180"/><rect x="240" y="420" width="40" height="180"/><rect x="240" y="630" width="40" height="180"/>
+      <rect x="300" y="0" width="40" height="180"/><rect x="300" y="210" width="40" height="180"/><rect x="300" y="420" width="40" height="180"/><rect x="300" y="630" width="40" height="180"/>
+      <rect x="360" y="0" width="40" height="180"/><rect x="360" y="210" width="40" height="180"/><rect x="360" y="420" width="40" height="180"/><rect x="360" y="630" width="40" height="180"/>
+    </g>
+  </g>
+
+  <g filter="url(#shadow2)">
+    <!-- left girl -->
+    <g transform="translate(100,170)">
+      <path d="M110 260 Q180 100 260 100 Q335 100 390 260 L390 520 L110 520 Z" fill="#f9d87a"/>
+      <path d="M120 170 Q170 60 245 100 Q330 90 365 195 Q295 160 236 160 Q165 155 120 170 Z" fill="#f3d492"/>
+      <circle cx="200" cy="220" r="18" fill="#1a1a1a"/>
+      <circle cx="315" cy="220" r="18" fill="#1a1a1a"/>
+      <path d="M220 285 Q258 320 297 285" stroke="#1a1a1a" stroke-width="10" fill="none" stroke-linecap="round"/>
+      <path d="M120 315 Q250 410 390 315" fill="#f9d87a"/>
+      <rect x="120" y="390" width="270" height="130" rx="25" fill="#f9d87a"/>
+      <path d="M120 420 L200 500 L170 530 Q120 560 70 560 L70 420 Z" fill="#ff6d71" opacity="0.75"/>
+      <path d="M290 420 L390 500 L420 530 Q470 560 470 560 L470 420 Z" fill="#ff6d71" opacity="0.75"/>
+      <path d="M120 520 Q245 610 390 520 L390 670 L120 670 Z" fill="#ff6d71" opacity="0.7"/>
+    </g>
+
+    <!-- right girl -->
+    <g transform="translate(905,165)">
+      <path d="M160 250 Q200 90 290 90 Q355 90 410 250 L410 520 L160 520 Z" fill="#f5d8bf"/>
+      <path d="M183 170 Q245 40 330 40 Q390 70 440 180 Q410 165 360 150 Q280 130 225 150 Q205 160 183 170 Z" fill="#f18d50"/>
+      <path d="M170 180 Q120 150 110 210 Q165 230 210 205" fill="#f18d50"/>
+      <path d="M430 180 Q485 150 490 210 Q443 235 388 203" fill="#f18d50"/>
+      <circle cx="220" cy="220" r="18" fill="#1a1a1a"/>
+      <circle cx="330" cy="220" r="18" fill="#1a1a1a"/>
+      <path d="M230 290 Q275 330 325 290" stroke="#1a1a1a" stroke-width="10" fill="none" stroke-linecap="round"/>
+      <path d="M160 320 Q280 380 410 320" fill="#f2d0cf"/>
+      <rect x="170" y="390" width="250" height="140" rx="30" fill="#d4b0ff"/>
+      <path d="M170 430 L220 520 L270 430 Z" fill="#e95c5c"/>
+      <path d="M340 430 L390 520 L430 430 Z" fill="#e95c5c"/>
+      <path d="M170 520 Q290 610 410 520 L410 680 L170 680 Z" fill="#ec5ca8" opacity="0.85"/>
+    </g>
+  </g>
+
+  <g font-family="Arial Black, Arial, sans-serif" fill="#fff" font-weight="900" text-anchor="middle">
+    <text x="520" y="120" font-size="135" fill="#ff3db3">NO...</text>
+    <text x="1060" y="120" font-size="110" fill="#00ff4d">NERD</text>
+    <text x="1320" y="120" font-size="110" fill="#ff6a00">POPULAR</text>
+  </g>
+
+  <g font-family="Arial Black, Arial, sans-serif" font-weight="900" fill="#fff" text-anchor="middle">
+    <text x="520" y="790" font-size="48" fill="#ff3db3">"No..."</text>
+    <text x="1060" y="790" font-size="48" fill="#00ff4d">Nerd</text>
+    <text x="1320" y="790" font-size="48" fill="#ff6a00">Popular</text>
+  </g>
+</svg>
